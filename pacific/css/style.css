@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  /* color: #222; */
+  box-sizing: border-box;
+  width: 860px;
+  margin: 0 auto;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1, h2, h4, a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  display: inline-block;
+
+}
+
+/* ----------------------------------------
+Grid System
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+  max-width: 840px;
+  height: 100%;
+  background: url("../images/header.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 140px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 120px;
+}
+header h1, h2 {
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 2px #B7C2C4;
+}
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 840px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  background-color: #242627;
+}
+.about h3, h4 {
+  color: white;
+}
+.about p {
+  color: #bdbdbe;
+}
+.about_head {
+  grid-column-start: 1;
+  grid-column: 1 / 3;
+}
+.about_copy {
+  grid-column-start: 1;
+  grid-column: 1 / 3;
+  padding-right: 50px;
+}
+.about_side {
+  grid-column: 3;
+  grid-row: 1 / -1;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* ----------------------------------------
+Food
+------------------------------------------- */
+.food_menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 840px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+}
+.menu_title {
+  grid-column: 1 / -1;
+}
+.section_menu h3, h4 {
+  color: #efefef;
+}
+.menu_title {
+  color: black;
+}
+.menu_item {
+  color: black;
+}
+/* ----------------------------------------
+Drinks
+------------------------------------------- */
+.maciej_drinks {
+  display: grid;
+  max-width: 840px;
+  grid-template-columns: repeat(4, 1fr);
+  background: url("../images/drinks.jpg");
+  background-size: cover;
+  grid-gap: 10px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+.maciej_drinks p {
+  color: #bdbdbe;
+}
+.maciej_drinks h3, h4 {
+  color: #efefef;
+}
+.drinks {
+/* padding: 10px; */
+}
+.drinks_title {
+  grid-column: 1 / -1;
+  padding-top: 30px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+max-width: 840px;
+  text-align: center;
+}

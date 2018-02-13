@@ -5,28 +5,31 @@ html {
 body {
   font-family: "Oswald", "Open-Sans";
   background-color: #98D2BF;
-  padding: 50px;
+  /* padding: 50px;
 	width: 45%;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 body h3 {
   font-family: Open Sans;
 }
 .form_container {
+  /* position: relative; */
   background-color: white;
-  width: 100%;
+  width: 60%;
   padding-top: 40px;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 40px;
+  margin: 40px auto;
+
 }
 form input, textarea {
   width: 94%;
   padding: 15px;
 }
-.email_capture {
+/* .email_capture {
   display: inline-block;
-}
+} */
 button {
   background-color: #B69843;
   color: white;

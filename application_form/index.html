@@ -8,41 +8,39 @@
   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-
   <body>
     <div class="form_container">
       <form class="" action="" method="post">
-      <h1>YOUR CONTACT INFO</h1>
-      <h3>Full Name</h3>
-      <input type="text" name="Full Name" placeholder="Enter your Name" value="">
-      <h3>Email</h3>
-      <input type="text" name="Email" placeholder="Enter your email" value="">
-      <h3>Phone Number</h3>
-      <input type="text" name="Phone Number" placeholder="Enter your phone number" value="">
-      <hr>
-      <h1>SKILLS AND INTERESTS</h1>
-      <h3>What course are you interested in?</h3>
-      <form class="" action="" method="post"></form>
-       <select>
-        <option value="front_end">Front End Web Development</option>
-        <option value="back_end">Back End Web Development</option>
-        <option value="UX">User Experience</option>
-        <option value="JS">JavaSript Development</option>
-        <option value="DS">Data Science</option>
-      </select>
+        <h1>YOUR CONTACT INFO</h1>
+        <h3>Full Name</h3>
+        <input type="text" name="Full Name" placeholder="Enter your Name" value="">
+        <h3>Email</h3>
+        <input type="text" name="Email" placeholder="Enter your email" value="">
+        <h3>Phone Number</h3>
+        <input type="text" name="Phone Number" placeholder="Enter your phone number" value="">
+        <hr>
+        <h1>SKILLS AND INTERESTS</h1>
+        <h3>What course are you interested in?</h3>
+        <form class="" action="" method="post"></form>
+         <select>
+          <option value="" selected disabled>Select</option>
+          <option value="front_end">Front End Web Development</option>
+          <option value="back_end">Back End Web Development</option>
+          <option value="UX">User Experience</option>
+          <option value="JS">JavaSript Development</option>
+          <option value="DS">Data Science</option>
+        </select>
         <h3>Where do you want to take the course?</h3>
-        <div>
-          <label for="contactChoice1">San Francisco </label>
-          <input type="radio" id="contactChoice1"
-           name="contact" value="San Francisco">
-          <label for="contactChoice2">Chicago </label>
-          <input type="radio" id="contactChoice2"
-           name="contact" value="Chicago">
-        </div>
+        <label for="contactChoice1">San Francisco </label>
+        <input type="radio" id="contactChoice1"
+         name="contact" value="San Francisco">
+        <label for="contactChoice2">Chicago </label>
+        <input type="radio" id="contactChoice2"
+         name="contact" value="Chicago">
         <h3>Past experience</h3>
         <textarea name="past_experrience" rows="8" cols="80" placeholder="What is your past experrience?"></textarea>
         <hr>
-         <label for="subscribeNews">I want to receive email updates.</label>
+        <label for="subscribeNews">I want to receive email updates.</label>
         <input type="checkbox" id="email_subscribe" name="subscribe" value="newsletter"></input>
         <br><br>
         <button type="submit">Submit Application</button>
